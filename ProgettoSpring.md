@@ -1,4 +1,4 @@
-# Impostazione Progetto Spring
+# Configurazione Progetto Spring
 
 ### Creazione del progetto
 - con il Packaging JAR all'interno del file sarà presente anche una versione embedded del server Tomcat che permette di eseguire l'applicazione senza dover installare alcun server, con il package WAR si può deployare con un server diverso -> si può cambiare dal file pom.xml
@@ -14,14 +14,14 @@ Dal sito https://start.spring.io/:
 
 Premendo su GENERATE viene creata la cartella con il progetto spring
 
-## Packages e file
+### Packages e file
 - La struttura del progetto è quella di progetto MAVEN:
   - Package __java/com/task6/editor__ che contiene la classe EditorApplication.java. Questa classe è l'entry point dell'applicazione ed è annotata con @SpringBootApplication, questo fa capire a SpringBoot di che tipo di classe si tratta e come deve essere gestita
   - Package __test/java/com/task6/editor__: package dedicato ai test
   - All'interno degli altri sorgenti troviamo il file ##application.properties## (in resources) che verrà  utilizzato per inserire tutte le impostazioni del progetto, come ad esempio la modifica del numero di porta associato all'applicazione a tutte le impostazioni relative alla sicurezza, connessione database, ecc
   - È presente il file __pom.xml__ che ci permette di gestire tutte le versioni delle varie dipendenze, nel nostro caso sono presenti: spring-boot-starter-web, spring-boot-devtools, spring-boot-starter-test, spring-boot-maven-plugin. Esso contiene la versione di SpringBoot utilizzata, i dati relativi al groupId, all'artifact, la versione (che può essere modificata). Questo file pom può essere modificato manualemente se vogliamo aggiungere altre dipendenze o plugin o modificare parametri.
 
-## RUN
+### RUN
 Per lanciare il progetto su VSCode, 
 - scaricare la seguente estensione: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
 - aprire la dashboard dal VSCode e fare run 
@@ -29,5 +29,9 @@ Per lanciare il progetto su VSCode,
 
 Notiamo che una volta fatto il RUN è partita un'istanza di Tomcat sulla porta 8080 (che è quella di default). Questa porta potrebbe andare in conflitto con altre applicazioni già in esecuzione, in questo caso da application.properties è possibile specificare una porta diversa.
 
-# Configurazione Progetto Spring
-
+# Struttura Progetto Spring
+Un progetto è tipicamente organizzato in una serie di cartelle che vengono create direttamente dai tool:
+- La cartella __src/main/java__: contiene tutto il codice sorgente che sarà organizzato nei diversi package
+- La cartella __src/test/java__: contiene tutto il codice relativo ai test
+- La cartella __src/main/resources__: contiene le risorse utilizzate all'interno dell'applicazione. 
+  - Tra queste abbiamo il file _application.properties_ e serve per inserire tutte le proprietà del codice sorgente scritte nella forma _proprietà:valore_ (oppure si può usare l'_application.yaml_).
