@@ -66,5 +66,17 @@ Bisogna scaricare le seguenti estensioni:
 9. Inserire le dipendenze: _Spring Web_, _Spring Boot Dev Tools_
 10. Selezionare la cartella dove salvare il progetto
   
+### Dashboard Spring
+La dashboard ci consente di accedere all'applicazione ed è attivabile dal pulsanete _Spring Boot Dashboard_:
+<img width="1374" alt="Screenshot 2023-06-08 alle 16 21 36" src="https://github.com/martasichinolfi/spring/assets/101711376/eb99a37d-c520-45b4-8980-f701947157e4">
   
+Vediamo tre sezioni che sono:
+  - La lista delle APPS
+  - I BEANS
+  - Gli ENDPOINTS MAPPING (all'inizio vuoto perché non ci sono Controller)
+  
+ Per far partire l'applicazione premiamo sull'app (editor) e facciamo il RUN
+
+# Creazione di un Controller 
+Bisogna creare all'interno della cartella _src/main/java_ la classe _EditorController.java_. All'interno della classe controller, bisogna definire i metodi che gestiscono le richieste relative all'applicazione HTML e ai file JavaScript. 
 
