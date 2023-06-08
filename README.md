@@ -9,4 +9,6 @@
 
 Dal sito https://start.spring.io/:
 
-<img width="1382" alt="Screenshot 2023-06-08 alle 09 51 48" src="https://github.com/martasichinolfi/spring/assets/101711376/88caf33f-b6ce-41c8-ac21-0c3e1d68473d">
+<img width="1382" alt="Screenshot 2023-06-08 alle 09 54 34" src="https://github.com/martasichinolfi/spring/assets/101711376/6d586f5c-7952-4112-a5e6-565672ec9dcf">
+
+Premendo su GENERATE viene creata la cartella con il progetto spring
