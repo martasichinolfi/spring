@@ -27,4 +27,4 @@ Per lanciare il progetto su VSCode,
 - aprire la dashboard dal VSCode e fare run 
 <img width="1381" alt="Screenshot 2023-06-08 alle 10 29 01" src="https://github.com/martasichinolfi/spring/assets/101711376/b4d09031-0dec-4aee-b947-62d07d35019b">
 
-A questo punto la 
+A questo punto abbiamo la build pronta all'uso, il file prodotto è un JAR e si trova all'interno della cartella __target__. Questo file jar contiene anche un'istanza embedded di Tomcat  
