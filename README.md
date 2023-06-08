@@ -12,3 +12,10 @@ Dal sito https://start.spring.io/:
 <img width="1382" alt="Screenshot 2023-06-08 alle 09 54 34" src="https://github.com/martasichinolfi/spring/assets/101711376/6d586f5c-7952-4112-a5e6-565672ec9dcf">
 
 Premendo su GENERATE viene creata la cartella con il progetto spring
+
+## Packages e file
+- La struttura del progetto è quella di progetto MAVEN:
+  - Package ##java/com/task6/editor## che contiene la classe EditorApplication.java. Questa classe è l'entry point dell'applicazione ed è annotata con @SpringBootApplication, questo fa capire a SpringBoot di che tipo di classe si tratta e come deve essere gestita
+  - Package ##test/java/com/task6/editor##: package dedicato ai test
+  - All'interno degli altri sorgenti troviamo il file ##application.properties## (in resources) che verrà  utilizzato per inserire tutte le impostazioni del progetto, come ad esempio la modifica del numero di porta associato all'applicazione a tutte le impostazioni relative alla sicurezza, connessione database, ecc
+  - È presente il file ##pom.xml## che ci permette di gestire tutte le versioni delle varie dipendenze, nel nostro caso sono presenti: spring-boot-starter-web, spring-boot-devtools, spring-boot-starter-test, spring-boot-maven-plugin. Esso contiene la versione di SpringBoot utilizzata, i dati relativi al groupId, all'artifact, la versione (che può essere modificata). Questo file pom può essere modificato manualemente se vogliamo aggiungere altre dipendenze o plugin o modificare parametri.
