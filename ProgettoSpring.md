@@ -77,5 +77,6 @@ Vediamo tre sezioni che sono:
   
  Per far partire l'applicazione premiamo sull'app (editor) e facciamo il RUN
 
-# Inserimento di una pagina html nel progetto Spring
+# Creazione di un Controller 
+Bisogna creare all'interno della cartella _src/main/java_ la classe _EditorController.java_. All'interno della classe controller, bisogna definire i metodi che gestiscono le richieste relative all'applicazione HTML e ai file JavaScript. 
 
