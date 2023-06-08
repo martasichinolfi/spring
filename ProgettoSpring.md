@@ -77,3 +77,5 @@ Vediamo tre sezioni che sono:
   
  Per far partire l'applicazione premiamo sull'app (editor) e facciamo il RUN
 
+# Inserimento di una pagina html nel progetto Spring
+
