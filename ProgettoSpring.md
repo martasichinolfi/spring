@@ -55,7 +55,16 @@ Bisogna scaricare le seguenti estensioni:
 - __Spring Boot Extension Pack__ (https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack): insieme di estensioni per sviluppare applicazioni basate su Spring Boot. In questo modo abbiamo sia il supporto per Spring Inizializr (quindi possiamo creare direttamente da VSCode. Vi è poi la possibilità di gestire le applicazioni attraverso una SpringBoot Dashboard con cui possiamo avviare, fermare, mandare in debug, ecc. Permette anche di poter lavorare con i file di configurazione (application.properties) 
   
 ### Creazione progetto da zero
-1. Premere ctrl + shift + P (su mac: cmd + shift + P) e scriviamo _spring_
+1. Premere _ctrl + shift + P_ (su mac: _cmd + shift + P_) e scrivere _spring_
+2. Selezionare _Spring Inizializr: Create a Maven Project..._
+3. Selezionare la versione: _3.1.0_
+4. Selezionare il linguaggio: _java_
+5. Inserire il nome: _com.taskt6_
+6. Inserire il nome dell'artifact: _editor_
+7. Selezionare il tipo di packaging: _jar_
+8. Specificare la versione di java: _20_
+9. Inserire le dipendenze: _Spring Web_, _Spring Boot Dev Tools_
+10. Selezionare la cartella dove salvare il progetto
   
   
 
