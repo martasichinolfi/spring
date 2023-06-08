@@ -36,3 +36,8 @@ Un progetto è tipicamente organizzato in una serie di cartelle che vengono crea
 - La cartella __src/main/resources__: contiene le risorse utilizzate all'interno dell'applicazione. 
   - Tra queste abbiamo il file _application.properties_ e serve per inserire tutte le proprietà del codice sorgente scritte nella forma _proprietà:valore_ (oppure si può usare l'_application.yaml_).
 - File __pom.xml__: file che viene generato automaticamente in partenza e contiene tutte le dipendenze, ad ognuna di esse corrisponde un blocco _<dependency>_. In questo modo Maven saprà come scaricare le dipendenze e come inserirle nel progetto.
+  
+- Le classi che vengono create automaticamente sono:
+  - __EditorApplication.java__: class principale dotata del metodo _main_ che va a richiamare il metodo _run_ di SpringApplication a cui viene passato il nome della classe e gli eventuali argomenti passati da riga di comando. Questa classe è annotata come _@SpringBootApplication_, si tratta di una notazione specifica di SpringBoot che fonde tre annotazioni del frameworok Spring (@Configuration, @ComponentScan, @EnableAutoConfiguration). Quindi con una sola annotazioe si denota questa classe come:
+    - una classe di configurazione (@Configuration),
+     -  si attiva il ComponentScan ossia
