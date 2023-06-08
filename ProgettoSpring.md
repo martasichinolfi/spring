@@ -47,3 +47,15 @@ Un progetto è tipicamente organizzato in una serie di cartelle che vengono crea
   
 - __EditorApplicationTests.java__: questa classe riguarda i test, si trova nella cartella __src/java__. Questa classe è un esempio di classe che può essere utilizzata per creare i test. È presente l'annotazione _@SpringBootTest_ che va utilizzata quando si fanno dei test di integrazione. Questo perchè SpringBootTest carica l'intero ApplicationContext, quindi tutti i Bean dell'applicazione, indipendentemente dal fatto che stiamo facendo un test di unità (test di un singolo componente).
   - Il meotodo _contextLoads()_ è annotato con _@Test_, tutti i metodi che corrispondono ai test vanno annotati in questo modo affinchè vengano presi in considerazione durante la fase di test.
+  
+# Creazione Progetto Spring da VSCode
+### Estensioni necessarie
+Bisogna scaricare le seguenti estensioni:
+- __Extension Pack for Java__ (https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack): ci permette di abilitare una serie di funzionalità che riguardano la navigazione del codice, la funzionalità di IntelliSense, il debugging, il testing, il supporto per Maven/Gradle, ecc.
+- __Spring Boot Extension Pack__ (https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack): insieme di estensioni per sviluppare applicazioni basate su Spring Boot. In questo modo abbiamo sia il supporto per Spring Inizializr (quindi possiamo creare direttamente da VSCode. Vi è poi la possibilità di gestire le applicazioni attraverso una SpringBoot Dashboard con cui possiamo avviare, fermare, mandare in debug, ecc. Permette anche di poter lavorare con i file di configurazione (application.properties) 
+  
+### Creazione progetto da zero
+1. Premere ctrl + shift + P (su mac: cmd + shift + P) e scriviamo _spring_
+  
+  
+
