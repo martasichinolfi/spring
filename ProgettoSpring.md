@@ -39,5 +39,6 @@ Un progetto è tipicamente organizzato in una serie di cartelle che vengono crea
   
 - Le classi che vengono create automaticamente sono:
   - __EditorApplication.java__: class principale dotata del metodo _main_ che va a richiamare il metodo _run_ di SpringApplication a cui viene passato il nome della classe e gli eventuali argomenti passati da riga di comando. Questa classe è annotata come _@SpringBootApplication_, si tratta di una notazione specifica di SpringBoot che fonde tre annotazioni del frameworok Spring (@Configuration, @ComponentScan, @EnableAutoConfiguration). Quindi con una sola annotazioe si denota questa classe come:
-    - una classe di configurazione (@Configuration),
-     -  si attiva il ComponentScan ossia
+  - @Configuration:una classe di configurazione 
+  - @ComponentScan: si attiva il ComponentScan ossia SpringBoot nel momento in cui si avvia l'applicazione va a ricercare tutte le classi che sono annotate con @Component e con altre annotazioni (chiamate stereotipi, come @Controller, @RESTController, @Repository, @Service, ecc) in modo tale da creare dei __Bean__. Questi ultimi sono delle istanze delle classi da gestire all'interno dell'ApplicationContext e da utilizzare in combinazione con la dependency injection laddove siano richieste dipendenze all'interno delle classi.
+  - @EnableAutoConfiguration: si attiva la possibilità di avere delle configurazioni di default associate ai vari moduli che si vanno ad utilizzare che ci consentono di avere un'applicazione funzionante con delle impostazioni di default che possono poi essere modificate.
