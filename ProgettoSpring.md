@@ -28,3 +28,6 @@ Per lanciare il progetto su VSCode,
 <img width="1381" alt="Screenshot 2023-06-08 alle 10 29 01" src="https://github.com/martasichinolfi/spring/assets/101711376/b4d09031-0dec-4aee-b947-62d07d35019b">
 
 Notiamo che una volta fatto il RUN è partita un'istanza di Tomcat sulla porta 8080 (che è quella di default). Questa porta potrebbe andare in conflitto con altre applicazioni già in esecuzione, in questo caso da application.properties è possibile specificare una porta diversa.
+
+# Configurazione Progetto Spring
+
