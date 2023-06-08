@@ -19,3 +19,13 @@ Premendo su GENERATE viene creata la cartella con il progetto spring
   - Package __test/java/com/task6/editor__: package dedicato ai test
   - All'interno degli altri sorgenti troviamo il file ##application.properties## (in resources) che verrà  utilizzato per inserire tutte le impostazioni del progetto, come ad esempio la modifica del numero di porta associato all'applicazione a tutte le impostazioni relative alla sicurezza, connessione database, ecc
   - È presente il file __pom.xml__ che ci permette di gestire tutte le versioni delle varie dipendenze, nel nostro caso sono presenti: spring-boot-starter-web, spring-boot-devtools, spring-boot-starter-test, spring-boot-maven-plugin. Esso contiene la versione di SpringBoot utilizzata, i dati relativi al groupId, all'artifact, la versione (che può essere modificata). Questo file pom può essere modificato manualemente se vogliamo aggiungere altre dipendenze o plugin o modificare parametri.
+
+## RUN
+Per lanciare il progetto su VSCode, scaricare la seguente estensione: 
+Nome: Spring Boot Dashboard
+ID: vscjava.vscode-spring-boot-dashboard
+Descrizione: Spring Boot Dashboard for VS Code
+Versione: 0.13.1
+Editore: Microsoft
+Collegamento di Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
+
