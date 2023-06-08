@@ -21,11 +21,8 @@ Premendo su GENERATE viene creata la cartella con il progetto spring
   - È presente il file __pom.xml__ che ci permette di gestire tutte le versioni delle varie dipendenze, nel nostro caso sono presenti: spring-boot-starter-web, spring-boot-devtools, spring-boot-starter-test, spring-boot-maven-plugin. Esso contiene la versione di SpringBoot utilizzata, i dati relativi al groupId, all'artifact, la versione (che può essere modificata). Questo file pom può essere modificato manualemente se vogliamo aggiungere altre dipendenze o plugin o modificare parametri.
 
 ## RUN
-Per lanciare il progetto su VSCode, scaricare la seguente estensione: 
-Nome: Spring Boot Dashboard
-ID: vscjava.vscode-spring-boot-dashboard
-Descrizione: Spring Boot Dashboard for VS Code
-Versione: 0.13.1
-Editore: Microsoft
-Collegamento di Visual Studio Marketplace: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
+Per lanciare il progetto su VSCode, 
+- scaricare la seguente estensione: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
+- aprire la dashboard dal VSCode e fare run 
+<img width="1381" alt="Screenshot 2023-06-08 alle 10 26 38" src="https://github.com/martasichinolfi/spring/assets/101711376/322fff9e-25be-4ad5-97dc-49744ab27abf">
 
