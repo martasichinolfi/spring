@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EditorApplication<editor>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.task6.editor.EditorApplication",
+            "projectName": "editor",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
