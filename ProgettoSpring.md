@@ -35,3 +35,4 @@ Un progetto è tipicamente organizzato in una serie di cartelle che vengono crea
 - La cartella __src/test/java__: contiene tutto il codice relativo ai test
 - La cartella __src/main/resources__: contiene le risorse utilizzate all'interno dell'applicazione. 
   - Tra queste abbiamo il file _application.properties_ e serve per inserire tutte le proprietà del codice sorgente scritte nella forma _proprietà:valore_ (oppure si può usare l'_application.yaml_).
+- File __pom.xml__: file che viene generato automaticamente in partenza e contiene tutte le dipendenze, ad ognuna di esse corrisponde un blocco _<dependency>_. In questo modo Maven saprà come scaricare le dipendenze e come inserirle nel progetto.
